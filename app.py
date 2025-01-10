@@ -104,3 +104,5 @@ if st.button("Button Clicked"):
         for i in range(len(words) + 1):
             message_placeholder.write(" ".join(words[:i]))
             time.sleep(0.3)
+
+st.image(caption="With Love Anot")
