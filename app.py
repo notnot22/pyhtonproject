@@ -1,6 +1,6 @@
 import streamlit as st
-import time
 import random
+import time
 
 # Initialize session state variables
 if "click_count" not in st.session_state:
@@ -16,47 +16,6 @@ st.title("💓 Love Message From Anot 💓")
 st.write(
     "Welcome to the Love Message From Anot 💓! Press the button below 22 times to see the special message 💓."
 )
-
-# Add heart rain animation to the page
-heart_rain_html = """
-    <style>
-        body {
-            overflow: hidden;
-        }
-        .heart {
-            position: fixed;
-            font-size: 30px;
-            color: red;
-            animation: fall 5s linear infinite;
-        }
-
-        @keyframes fall {
-            0% {
-                transform: translateY(-100%);
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(100vh);
-                opacity: 0;
-            }
-        }
-    </style>
-    <script>
-        const createHeart = () => {
-            const heart = document.createElement('div');
-            heart.classList.add('heart');
-            heart.textContent = '💖';
-            heart.style.left = Math.random() * 100 + 'vw';
-            heart.style.animationDuration = Math.random() * 2 + 3 + 's';
-            document.body.appendChild(heart);
-            setTimeout(() => heart.remove(), 5000);
-        };
-
-        setInterval(createHeart, 300);
-    </script>
-"""
-
-st.markdown(heart_rain_html, unsafe_allow_html=True)
 
 # Function to generate random button position
 def random_position():
@@ -81,7 +40,7 @@ button_style = f"""
 """
 button_html = f"""
     <div style="{button_style}">
-        <button onclick="window.location.reload()" style="padding: 10px; font-size: 16px;">Press Me Darlingg💓</button>
+        <button onclick="fetch('/button_clicked')" style="padding: 10px; font-size: 16px;">Press Me Darlingg💓</button>
     </div>
 """
 
