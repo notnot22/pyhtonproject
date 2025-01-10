@@ -36,4 +36,4 @@ if st.button("Tekan Aku"):
         unsafe_allow_html=True
     )
 else:
-    st.write("Tekan tombol di atas untuk melihat pesan cinta! ❤️")
+    st.write("Tekan tombol di atas untuk melihat pesan dari anot! ❤️")
