@@ -105,5 +105,5 @@ if st.button("Button Clicked"):
             message_placeholder.write(" ".join(words[:i]))
             time.sleep(0.3)
 
-st.image("https://github.com/notnot22/pyhtonproject/blob/main/a7fb1871ef358d2508aef77f33541a1b.gif", caption="With Love")
+st.image("https://github.com/notnot22/pyhtonproject/blob/main/a7fb1871ef358d2508aef77f33541a1b.gif", caption="With Love Anot")
 
