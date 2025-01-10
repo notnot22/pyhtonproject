@@ -9,31 +9,39 @@ st.set_page_config(
     layout="centered"
 )
 
-# Display the title
-st.title("❤️ A Special Button ❤️")
+# Style for centering content
+st.markdown(
+    """
+    <style>
+    .center-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+    }
+    .button {
+        margin-top: 20px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-# Add a button to reveal the message
-if st.button("Tekan Aku"):
+# Main content
+st.markdown(
+    """
+    <div class="center-content">
+        <h1>❤️ A Special Button ❤️</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# Add a button and show centered message
+if st.button("Tekan Aku", key="unique_button", help="Klik untuk melihat pesan dari anot"):
     st.markdown(
         """
-        <div style="text-align: center; font-size: 24px; color: #FF4081;">
-            I love you forever and ever,<br>
-            my love,<br>
-            with all my heart.
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-    # Add a decorative footer
-    st.markdown(
-        """
-        <hr>
-        <div style="text-align: center; color: #6A1B9A; font-size: 16px;">
-            💕 From the depths of my soul 💕
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-else:
-    st.write("Tekan tombol di atas untuk melihat pesan dari anot! ❤️")
+        <div class="mark">
+    """,
