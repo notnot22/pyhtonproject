@@ -1,13 +1,13 @@
 import streamlit as st
 
 # Title of the web app
-st.title("Love Message App")
+st.title("💓Love Message From Anot💓")
 
 # Introduction text
-st.write("Welcome to the Love Message app! Press the button below to see the special message.")
+st.write("Welcome to the Love Message From Anot! Press the button below to see the special message.")
 
 # Button to trigger the display of the love message
-if st.button("Tekan Aku"):
+if st.button("Press Me Gracee 💓💓"):
     love_message = """
     I love you sayanggku, cintakuu, my lovee, my honey, my baby, my princess, 
     my darling, my favorite person, my sweet lovely special soft pink gummy bear, 
