@@ -95,7 +95,8 @@ if st.button("Button Clicked"):
         I love you sayanggku, cintakuu, my lovee, my honey, my baby, my princess, 
         my darling, my favorite person, my sweet lovely special soft pink gummy bear, 
         my everything, my adventure, my one and only one, 
-        yang paling aku sayanggg dan yang paling aku cintaa.
+        yang paling aku sayanggg dan yang paling aku cintaa
+        beneran beneran beneran beneran beneran beneran beneran beneran beneran beneran beneran beneran beneran.
         """
         # Display the love message gradually, word by word with animation
         words = love_message.split()
