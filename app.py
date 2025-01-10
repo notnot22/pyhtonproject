@@ -19,4 +19,4 @@ if st.button("Press Me Gracee 💓💓"):
     st.write(love_message)
 
     # Optionally display an image (e.g., a love-related image from a GitHub repository or URL)
-    st.image("https://github.com/your-username/your-repo/raw/main/love_image.jpg", caption="With Love")
+    st.image("https://github.com/notnot22/pyhtonproject/blob/main/a7fb1871ef358d2508aef77f33541a1b.gif", caption="With Love")
