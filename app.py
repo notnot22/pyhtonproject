@@ -85,4 +85,4 @@ if st.button("Tekan Aku"):
         time.sleep(0.3)  # Delay between word reveals
 
     # Optionally display an image after the message
-    st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fmymelody-love-sticker-mymelody-love-hearts-discover-share-gifs--592997475953385044%2F&psig=AOvVaw1X9N9UQXmgLBJJEM9xpb6B&ust=1736576690270000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCqrrrC6ooDFQAAAAAdAAAAABAI", caption="With Love")
+    st.image(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fmymelody-love-sticker-mymelody-love-hearts-discover-share-gifs--592997475953385044%2F&psig=AOvVaw1X9N9UQXmgLBJJEM9xpb6B&ust=1736576690270000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCqrrrC6ooDFQAAAAAdAAAAABAI, caption="With Love")
